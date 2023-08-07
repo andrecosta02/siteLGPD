@@ -13,15 +13,16 @@ header {
     min-height: 25px;
     color: white;
     text-align: center;
-    font-size: 1em;
+    font-size: .9em;
     padding: 10px;
 
 }
 
 img {
-    top: 3px;
+    /* top: 3px;
     left: 3px;
-    position: absolute;
+    position: absolute; */
+    width: 80vw;
 }
 
 main {
@@ -39,7 +40,7 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: .8em;
-    background-color: rgba(83, 83, 83, 0.401);
+    background-color: #2727ff;
 
 }
 
