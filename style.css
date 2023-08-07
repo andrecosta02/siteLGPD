@@ -22,7 +22,7 @@ img {
     /* top: 3px;
     left: 3px;
     position: absolute; */
-    height: 20vw;
+    height: 15vw;
 }
 
 main {
@@ -32,6 +32,10 @@ main {
 
 main > article > p {
     margin-bottom: 30px;
+}
+
+span {
+    color: #2727ff;
 }
 
 footer {
