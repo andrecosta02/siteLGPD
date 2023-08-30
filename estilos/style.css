@@ -1,66 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
-
 * {
     padding: 0px;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background-color: rgb(255, 0, 0);
-    min-height: 25px;
-    color: white;
-    text-align: center;
-    font-size: .9em;
-    padding: 10px;
-
+:root {
+    --color01: white;
+    --color02: black;
+    --color03: rgb(255, 0, 0);
+    --color04: #2727ff;
+    --color05: gray;
 }
-
+header {
+    background-color: var(--color05);
+    min-height: 25px;
+    color: var(--color02);
+    text-align: center;
+    font-size: .8em;
+    padding: 10px;
+}
 img {
     height: 15vw;
 }
-
 main {
     margin: 20px;
     text-align: justify;
+    font-size: .7em;
 }
-
 main > article > p {
     margin-bottom: 30px;
 }
-
 span {
-    /* color: #2727ff; */
     font-weight: bolder;
 }
-
 footer {
     min-height: 25px;
     color: white;
     text-align: center;
     padding: 10px;
     font-size: .8em;
-    background-color: #2727ff;
-
+    background-color: var(--color04);
 }
-
 .destaque {
     text-decoration: none;
     color: white;
     padding: 10px 0px;
     margin: 10px 0px;
 }
-
 .destaque:hover {
-    color: rgb(255, 0, 0);
+    color: var(--color03);
     transition: color .3s;
 }
-
 .location {
     text-decoration: none;
     color: white;
 }
-
 span:hover {
    transition: font-variation-settings 1s;
   font-variation-settings:
@@ -69,13 +64,11 @@ span:hover {
   'GRAD' 0,
   'opsz' 90
 }
-
 footer > h2 {
     font-size: 3em;
     font-weight: bolder;
     margin: 20px;
 }
-
 a {
     margin: 10px 0px;
 }
